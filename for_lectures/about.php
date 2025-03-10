@@ -1,12 +1,5 @@
 <?php
 
-$business = [
-    'name' => 'Laracasts',
-    'cost' => 15,
-    'categories' => ["Testing", "PHP", "JavaScript"]
-];
+$heading = 'About Us';
 
-function register($user)
-{
-}
-require "about.view.php";
+require "views/about.view.php";
